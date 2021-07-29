@@ -1,0 +1,80 @@
+
+.contact-list{
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: sans-serif;
+  }
+  .contact-item{
+    margin-right:60px;
+  text-align: center;
+    background-color: #fff;
+    box-shadow: 0 25px 20px rgba(1 1 1 /15%);
+    padding: 30px;
+  }
+  .contact-item:last-child{
+    margin-right: 0;
+  }
+  .contact-icon{
+    font-size: 48px;
+    color: #A06498;
+  text-align: center;
+  transition: transform .5s ease;
+  }
+  .tel-link{
+    text-decoration: none;
+  color: #000;
+  }
+  .contact-item:hover .contact-icon{
+    transform: translateY(-10px);
+  }
+  .row{
+  text-align: center;
+  margin: 50px;
+  }
+  .contact-form h3{
+    color: #111;
+    font-size: 25px;
+    font-weight:600;
+    margin-bottom: 40px;
+  }
+  .contact-form{
+    background-color: #fff;
+   
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+  }
+  .input-box{
+    position: relative;
+    width: 100%;
+  margin-bottom: 20px;
+  }
+  .contact-form .input-box input{
+    color: #111;
+  width: 100%;
+  font-size: 17px;
+  padding:10px;
+  }
+  .contact-form .input-box textarea{
+    color: #111;
+  width: 100%;
+  font-size: 17px;
+  padding:10px;
+  }
+  .btn{
+    padding: 12px 60px;
+  outline: none;
+  width: 100%;
+  font-size: 23px;
+  font-weight: 500;
+  transition: 1s ease;
+  border: none;
+  }
+  .btn:hover{
+    background-color: #fff;
+    border: 1px solid #111;
+  }

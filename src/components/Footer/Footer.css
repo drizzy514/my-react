@@ -1,0 +1,9 @@
+.footer{
+    background-color: #111;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  .footer p{
+    opacity: 0.6;
+  }
